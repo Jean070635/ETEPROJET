@@ -38,15 +38,29 @@ public class MapGenerator : MonoBehaviour
         //On regarde au Sud de la tuile -> bordure Nord du voisin Sud
         if (z > 0 && grilleMap[x, z - 1] != null)
         {
+            GameObject objSud = grilleMap[x, z - 1];
             PrefabConfig voisinSud = grilleMap[x, z - 1].GetComponent<PrefabConfig>();
-            contrainteSud = voisinSud.bordureNord;
+
+            // On récupère le nombre de rotations de 90° appliquées au voisin
+            int rotationsVoisinSud = Mathf.RoundToInt(objSud.transform.eulerAngles.y / 90f) % 4;
+            if (rotationsVoisinSud < 0) rotationsVoisinSud += 4;
+
+            //contrainteSud = voisinSud.bordureNord;
+            contrainteSud = voisinSud.ObtenirBordureApresRotation("Nord", rotationsVoisinSud);
         }
 
         //On regarde à l'Ouest de la tuile -> bordure Est du voisin Ouest
         if (x > 0 && grilleMap[x - 1, z] != null)
         {
-            PrefabConfig voisinOuest = grilleMap[x - 1, z].GetComponent<PrefabConfig>();
-            contrainteOuest = voisinOuest.bordureEst;
+            GameObject objOuest = grilleMap[x - 1, z];
+            PrefabConfig voisinOuest = objOuest.GetComponent<PrefabConfig>();
+
+            // On récupère le nombre de rotations de 90° appliquées au voisin
+            int rotationsVoisinOuest = Mathf.RoundToInt(objOuest.transform.eulerAngles.y / 90f) % 4;
+            if (rotationsVoisinOuest < 0) rotationsVoisinOuest += 4;
+
+            //contrainteOuest = voisinOuest.bordureEst;
+            contrainteOuest = voisinOuest.ObtenirBordureApresRotation("Est", rotationsVoisinOuest);
         }
 
         //On crée la liste des futurs tiles possibles
