@@ -70,10 +70,10 @@ public class MapGenerator : MonoBehaviour
                 string bordureOuestVirtuelle = config.ObtenirBordureApresRotation("Ouest", i);
 
                 //Validation de la contrainte Sud
-                if (contrainteSud != "" && config.bordureSud != contrainteSud) estValide = false;
+                if (contrainteSud != "" && bordureSudVirtuelle != contrainteSud) estValide = false;
 
                 //Validation de la contrainte Ouest
-                if (contrainteOuest != "" && config.bordureOuest != contrainteOuest) estValide = false;
+                if (contrainteOuest != "" && bordureOuestVirtuelle != contrainteOuest) estValide = false;
 
                 if (estValide) validTiles.Add(new OptionTuile(prefab, i));
             }
