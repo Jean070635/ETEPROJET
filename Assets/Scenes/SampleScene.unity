@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18104932, y: -0, z: -0, w: 0.983474}
+  m_LocalRotation: {x: 0.12706465, y: 0, z: 0, w: 0.9918945}
   m_LocalPosition: {x: -0.026, y: 6.9399996, z: -18.546}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1655795586}
-  m_LocalEulerAnglesHint: {x: 20.862, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 14.6, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,9 +461,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655795581}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 3
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -569,8 +569,8 @@ Transform:
   m_GameObject: {fileID: 1655795581}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.013, y: 2.17, z: -0.007}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 5, y: 2.17, z: 5}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86b0999ca00d6943b80bfffe1ba449f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  moveSpeed: 3
   rotateSpeed: 120
 --- !u!1001 &1478784354701438896
 PrefabInstance:
@@ -604,11 +604,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: widthX
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: heightZ
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: tailleTuile
@@ -616,7 +616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: prefabTiles.Array.size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[0]'
@@ -629,7 +629,7 @@ PrefabInstance:
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[2]'
       value: 
-      objectReference: {fileID: 6374188118049555040, guid: d437bb7cdcc5f7c4aa4f7cda6619a35a, type: 3}
+      objectReference: {fileID: 2598646488395343156, guid: 29e8ac5e999cbed41ae3ebbbc5cbf430, type: 3}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[3]'
       value: 
@@ -641,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[5]'
       value: 
-      objectReference: {fileID: 1973850464579320263, guid: 0cc6cb088c021f644a0aa45331448b03, type: 3}
+      objectReference: {fileID: 5673777802608718482, guid: a87fa60dd5a1b864bb4a909f3f7a7b3b, type: 3}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[6]'
       value: 

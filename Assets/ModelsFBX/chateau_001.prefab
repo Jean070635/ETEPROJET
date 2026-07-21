@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5376480816552612481
+--- !u!1001 &4744594613767941318
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.671646
+      value: 3.86455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19999969
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.944658
+      value: 5.2944
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -58,23 +58,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3002671229361103766}
+      addedObject: {fileID: 6884116038142835717}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2958442434761837155}
+      addedObject: {fileID: 3278090703174794157}
   m_SourcePrefab: {fileID: 100100000, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
---- !u!1 &5070051529493262288 stripped
+--- !u!1 &5555549097233191319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
-  m_PrefabInstance: {fileID: 5376480816552612481}
+  m_PrefabInstance: {fileID: 4744594613767941318}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &3002671229361103766
+--- !u!64 &6884116038142835717
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5070051529493262288}
+  m_GameObject: {fileID: 5555549097233191319}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -87,24 +87,24 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4406489637720207892, guid: 1367240f2d2174044883de66b624ebb9, type: 3}
---- !u!114 &2958442434761837155
+--- !u!114 &3278090703174794157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5070051529493262288}
+  m_GameObject: {fileID: 5555549097233191319}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05158f18cdfafae4c83a90b63486d489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PrefabConfig
-  bordureNord: herbe
-  bordureEst: herbe
-  bordureSud: herbe
-  bordureOuest: herbe
+  bordureNord: Herbe
+  bordureEst: Herbe
+  bordureSud: Herbe
+  bordureOuest: Herbe
   BiomeType: 
   dimension: 4

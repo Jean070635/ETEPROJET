@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PrefabConfig
   bordureNord: Herbe
-  bordureEst: Herbe
+  bordureEst: "Rivi\xE8re"
   bordureSud: Herbe
   bordureOuest: Herbe
   BiomeType: 
