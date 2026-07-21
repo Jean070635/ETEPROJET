@@ -616,36 +616,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: prefabTiles.Array.size
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[0]'
       value: 
-      objectReference: {fileID: 3954556947821381547, guid: dc3e568319eea7a4a8a7f7f6043b2347, type: 3}
+      objectReference: {fileID: 8834413802958684501, guid: 003b90cb59f61784a932f52bd0bb6627, type: 3}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[1]'
       value: 
-      objectReference: {fileID: 5468599947722722075, guid: 219d7b88dde4fb24bb17bb9608f5885f, type: 3}
-    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
-      propertyPath: 'prefabTiles.Array.data[2]'
-      value: 
-      objectReference: {fileID: 6374188118049555040, guid: d437bb7cdcc5f7c4aa4f7cda6619a35a, type: 3}
-    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
-      propertyPath: 'prefabTiles.Array.data[3]'
-      value: 
-      objectReference: {fileID: 3136050275510267670, guid: 640868d958b9d0f429bc333c30f2798a, type: 3}
-    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
-      propertyPath: 'prefabTiles.Array.data[4]'
-      value: 
-      objectReference: {fileID: 2890388819713974534, guid: 1247e5dcd9e851046b706c76f5aa7931, type: 3}
-    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
-      propertyPath: 'prefabTiles.Array.data[5]'
-      value: 
-      objectReference: {fileID: 1973850464579320263, guid: 0cc6cb088c021f644a0aa45331448b03, type: 3}
-    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
-      propertyPath: 'prefabTiles.Array.data[6]'
-      value: 
-      objectReference: {fileID: 4395895131229735502, guid: cbc8c1043c79c364e91cf124eda73b5b, type: 3}
+      objectReference: {fileID: 8580120934495292112, guid: 309b8a4251194514f981a1d56c2784a3, type: 3}
     - target: {fileID: 2626274082703774348, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
