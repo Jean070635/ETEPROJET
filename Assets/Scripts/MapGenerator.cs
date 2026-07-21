@@ -42,7 +42,7 @@ public class MapGenerator : MonoBehaviour
             PrefabConfig voisinSud = grilleMap[x, z - 1].GetComponent<PrefabConfig>();
 
             // On récupère le nombre de rotations de 90° appliquées au voisin
-            int rotationsVoisinSud = Mathf.RoundToInt(objSud.transform.eulerAngles.y / 90f) % 4;
+            int rotationsVoisinSud = Mathf.RoundToInt(objSud.transform.eulerAngles.y / 90f) % 4; //Mathf.RoundToInt arrondit à l'entier le plus proche
             if (rotationsVoisinSud < 0) rotationsVoisinSud += 4;
 
             //contrainteSud = voisinSud.bordureNord;
@@ -56,7 +56,7 @@ public class MapGenerator : MonoBehaviour
             PrefabConfig voisinOuest = objOuest.GetComponent<PrefabConfig>();
 
             // On récupère le nombre de rotations de 90° appliquées au voisin
-            int rotationsVoisinOuest = Mathf.RoundToInt(objOuest.transform.eulerAngles.y / 90f) % 4;
+            int rotationsVoisinOuest = Mathf.RoundToInt(objOuest.transform.eulerAngles.y / 90f) % 4; 
             if (rotationsVoisinOuest < 0) rotationsVoisinOuest += 4;
 
             //contrainteOuest = voisinOuest.bordureEst;

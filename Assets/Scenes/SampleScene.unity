@@ -603,8 +603,16 @@ PrefabInstance:
       value: MapGenerator
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
+      propertyPath: widthX
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
+      propertyPath: heightZ
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: prefabTiles.Array.size
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 866114297105913854, guid: e05d09e75b17a244f878753767040f79, type: 3}
       propertyPath: 'prefabTiles.Array.data[4]'
